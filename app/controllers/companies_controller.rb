@@ -24,12 +24,12 @@ class CompaniesController < ApplicationController
     # assign user-entered form data to Company's columns
     # save Company row
     # redirect user
-    company = Company.new
-    apple["name"] = "Apple"
-    apple["city"] = "Cupertino"
-    apple["state"] = "CA"
-    apple["url"] = "https://apple.com"
-    apple.save
+    # company = Company.new
+    # apple["name"] = "Apple"
+    # apple["city"] = "Cupertino"
+    # apple["state"] = "CA"
+    # apple["url"] = "https://apple.com"
+    # apple.save
 
 #look at lecture section
     redirect_to "/companies"
